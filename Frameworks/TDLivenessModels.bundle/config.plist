@@ -1,0 +1,8 @@
+{
+	hunter = "KM_Hunter_LargeFace_Gray_ppl_9.6.4_half_compression_v2_origin.model";
+	august = "KM_August_Face_Gray_PPL_2.6.3_half_compression_v2_origin.model";
+	align = "KM_Align_occlusion_106_1.19.6.model";
+	headpose = "KM_Headpose_106_ppl_2.3.0_half_compression_v2_origin.model";
+	pageant = "KM_Pageant_88id_Fcfp32_ppl_1.0.7_half_compression_v2_origin.model";
+	eyestate = "KM_eyestate_ppl_3.6.1_half_compression_v2_origin.model";
+}

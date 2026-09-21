@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "TDLiveness",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v9)
     ],
     products: [
         .library(
@@ -20,20 +20,17 @@ let package = Package(
                 ".git",
                 ".gitignore",
                 ".swiftpm",
-                "Artifacts/TDLiveness.xcframework",
+                "Frameworks/TDLiveness.xcframework",
                 "LICENSE",
                 "README.md"
             ],
-            sources: [
-                "Sources/TDLivenessResources/TDLivenessResources.swift"
-            ],
             resources: [
-                .copy("Artifacts/TDLivenessModels.bundle")
+                .copy("Frameworks/TDLivenessModels.bundle")
             ]
         ),
         .binaryTarget(
             name: "TDLiveness",
-            path: "Artifacts/TDLiveness.xcframework"
+            path: "Frameworks/TDLiveness.xcframework"
         )
     ]
 )
